@@ -1,82 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="소스 파일\Concept">
+    <Filter Include="Concept">
       <UniqueIdentifier>{5985d57f-5c69-4fd3-a301-9cb0a9840999}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Module">
-      <UniqueIdentifier>{0e5668a9-c03d-42cc-9465-7d8638481b6a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Coroutine">
+    <Filter Include="Coroutine">
       <UniqueIdentifier>{1dc0343c-9773-4723-a1b8-fbb4ac14ce95}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\TestExecute">
+    <Filter Include="Module">
+      <UniqueIdentifier>{0e5668a9-c03d-42cc-9465-7d8638481b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ranges">
+      <UniqueIdentifier>{a83436d0-efcf-49d4-92df-c9c261e3fa4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestExecute">
       <UniqueIdentifier>{963c2dc4-d52d-4cc9-b6de-fc3dc7d836e2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPP_20.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Coroutine.ixx">
-      <Filter>소스 파일\Coroutine</Filter>
+      <Filter>Coroutine</Filter>
     </ClCompile>
     <ClCompile Include="Module.ixx">
-      <Filter>소스 파일\Module</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="Module_Partition.ixx">
-      <Filter>소스 파일\Module</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="Module_Partition1.ixx">
-      <Filter>소스 파일\Module</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="Module_SubModule.ixx">
-      <Filter>소스 파일\Module</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="Module_Partition2.ixx">
-      <Filter>소스 파일\Module</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="Module_Partition2.cpp">
-      <Filter>소스 파일\Module</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="Module_Partition1.cpp">
-      <Filter>소스 파일\Module</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="Concept\Concept_1_HowToUse.cpp">
-      <Filter>소스 파일\Concept</Filter>
+      <Filter>Concept</Filter>
     </ClCompile>
     <ClCompile Include="Concept\Concept_2_Example.cpp">
-      <Filter>소스 파일\Concept</Filter>
+      <Filter>Concept</Filter>
     </ClCompile>
     <ClCompile Include="Concept\Concept_3_CustomConcept.cpp">
-      <Filter>소스 파일\Concept</Filter>
+      <Filter>Concept</Filter>
     </ClCompile>
     <ClCompile Include="TestExecute\TestExecuteFactory.cpp">
-      <Filter>소스 파일\TestExecute</Filter>
+      <Filter>TestExecute</Filter>
     </ClCompile>
+    <ClCompile Include="Module\Module_1_HowToExport.ixx">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP_20.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Concept\Concept_1_HowToUse.h">
-      <Filter>소스 파일\Concept</Filter>
+      <Filter>Concept</Filter>
     </ClInclude>
     <ClInclude Include="Concept\Concept_2_Example.h">
-      <Filter>소스 파일\Concept</Filter>
+      <Filter>Concept</Filter>
     </ClInclude>
     <ClInclude Include="Concept\Concept_3_CustomConcept.h">
-      <Filter>소스 파일\Concept</Filter>
+      <Filter>Concept</Filter>
     </ClInclude>
     <ClInclude Include="TestExecute\ITestExecute.h">
-      <Filter>소스 파일\TestExecute</Filter>
+      <Filter>TestExecute</Filter>
     </ClInclude>
     <ClInclude Include="TestExecute\TestExecuteFactory.h">
-      <Filter>소스 파일\TestExecute</Filter>
+      <Filter>TestExecute</Filter>
     </ClInclude>
     <ClInclude Include="TestExecute\TestType.h">
-      <Filter>소스 파일\TestExecute</Filter>
+      <Filter>TestExecute</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
