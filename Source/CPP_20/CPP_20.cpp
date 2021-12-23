@@ -6,7 +6,7 @@
 
 int main()
 {
-	if (ITestExecute* testExecute = TestExecuteFactory::CreateTestExecute(ETestType::Concept1))
+	if (ITestExecute* testExecute = TestExecuteFactory::CreateTestExecute(ETestType::Concept3))
 	{
 		testExecute->Execute();
 

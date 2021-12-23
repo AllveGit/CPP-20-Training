@@ -1,7 +1,12 @@
+﻿#include "Concept_2_Example.h"
 
-
-#include "Concept_2_Example.h"
 #include <iostream>
+
+/*
+ 	Concept 사용 예제 (Creature를 상속받았는지 체크)
+
+	☝ 템플릿 타입이 Creature의 자식으로 제한하는 Concept을 사용 (std::derived_from)
+ */
 
 template<typename T>
 requires std::derived_from<T, Creature>
