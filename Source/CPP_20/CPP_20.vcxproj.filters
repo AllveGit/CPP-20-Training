@@ -54,10 +54,19 @@
     <ClCompile Include="TestExecute\TestExecuteFactory.cpp">
       <Filter>TestExecute</Filter>
     </ClCompile>
+    <ClCompile Include="CPP_20.cpp" />
     <ClCompile Include="Module\Module_1_HowToExport.ixx">
       <Filter>Module</Filter>
     </ClCompile>
-    <ClCompile Include="CPP_20.cpp" />
+    <ClCompile Include="Module\Module_2_Partition.ixx">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\Module_2_Partition_Part1.ixx">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\Module_2_Partition_Part2.ixx">
+      <Filter>Module</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Concept\Concept_1_HowToUse.h">

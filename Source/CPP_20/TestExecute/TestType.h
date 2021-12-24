@@ -10,4 +10,6 @@ enum class ETestType : uint8_t
 
 	Module1,
 	Module2,
+	Module3,
+	Module4,
 };
