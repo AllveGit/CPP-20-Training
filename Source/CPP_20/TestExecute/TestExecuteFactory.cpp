@@ -11,6 +11,12 @@ import Module_2_Partition;
 import Module_3_SubModule;
 import Module_4_SubModuleImpl;
 
+// Ranges
+#include "../Ranges/Ranges_1_HowToUse.h"
+
+// Coroutine
+#include "../Coroutine/Coroutine_1_HowToUse.h"
+
 ITestExecute* TestExecuteFactory::CreateTestExecute(ETestType InTestType)
 {
 	switch (InTestType)
@@ -29,6 +35,10 @@ ITestExecute* TestExecuteFactory::CreateTestExecute(ETestType InTestType)
 		return new Module3TestExecute();
 	case ETestType::Module4:
 		return new Module4TestExecute();
+	case ETestType::Ranges1:
+		return new Ranges1TestExecute();
+	case ETestType::Coroutine1:
+		return new Coroutine1TestExecute();
 	default:
 		return nullptr;
 	}

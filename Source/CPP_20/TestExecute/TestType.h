@@ -12,4 +12,8 @@ enum class ETestType : uint8_t
 	Module2,
 	Module3,
 	Module4,
+
+	Ranges1,
+
+	Coroutine1,
 };

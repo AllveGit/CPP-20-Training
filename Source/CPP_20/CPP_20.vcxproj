@@ -158,7 +158,7 @@
     <ClCompile Include="Concept\Concept_1_HowToUse.cpp" />
     <ClCompile Include="Concept\Concept_2_Example.cpp" />
     <ClCompile Include="Concept\Concept_3_CustomConcept.cpp" />
-    <ClCompile Include="Coroutine.ixx" />
+    <ClCompile Include="Coroutine\Coroutine_1_HowToUse.cpp" />
     <ClCompile Include="CPP_20.cpp" />
     <ClCompile Include="Module\Module_1_HowToExport.ixx" />
     <ClCompile Include="Module\Module_2_Partition_Part2.ixx" />
@@ -169,12 +169,15 @@
     <ClCompile Include="Module\Module_3_SubModule_Sub2.ixx" />
     <ClCompile Include="Module\Module_4_SubModuleImpl.ixx" />
     <ClCompile Include="Module\Module_4_SubModuleImpl.cpp" />
+    <ClCompile Include="Ranges\Ranges_1_HowToUse.cpp" />
     <ClCompile Include="TestExecute\TestExecuteFactory.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Concept\Concept_1_HowToUse.h" />
     <ClInclude Include="Concept\Concept_2_Example.h" />
     <ClInclude Include="Concept\Concept_3_CustomConcept.h" />
+    <ClInclude Include="Coroutine\Coroutine_1_HowToUse.h" />
+    <ClInclude Include="Ranges\Ranges_1_HowToUse.h" />
     <ClInclude Include="TestExecute\ITestExecute.h" />
     <ClInclude Include="TestExecute\TestExecuteFactory.h" />
     <ClInclude Include="TestExecute\TestType.h" />
