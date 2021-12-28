@@ -1,11 +1,15 @@
 #include "TestExecuteFactory.h"
 
+// Concept
 #include "../Concept/Concept_1_HowToUse.h"
 #include "../Concept/Concept_2_Example.h"
 #include "../Concept/Concept_3_CustomConcept.h"
 
+// Module
 import Module_1_HowToExport;
 import Module_2_Partition;
+import Module_3_SubModule;
+import Module_4_SubModuleImpl;
 
 ITestExecute* TestExecuteFactory::CreateTestExecute(ETestType InTestType)
 {
@@ -24,6 +28,7 @@ ITestExecute* TestExecuteFactory::CreateTestExecute(ETestType InTestType)
 	case ETestType::Module3:
 		return new Module3TestExecute();
 	case ETestType::Module4:
+		return new Module4TestExecute();
 	default:
 		return nullptr;
 	}

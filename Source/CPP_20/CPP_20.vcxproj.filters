@@ -21,27 +21,6 @@
     <ClCompile Include="Coroutine.ixx">
       <Filter>Coroutine</Filter>
     </ClCompile>
-    <ClCompile Include="Module.ixx">
-      <Filter>Module</Filter>
-    </ClCompile>
-    <ClCompile Include="Module_Partition.ixx">
-      <Filter>Module</Filter>
-    </ClCompile>
-    <ClCompile Include="Module_Partition1.ixx">
-      <Filter>Module</Filter>
-    </ClCompile>
-    <ClCompile Include="Module_SubModule.ixx">
-      <Filter>Module</Filter>
-    </ClCompile>
-    <ClCompile Include="Module_Partition2.ixx">
-      <Filter>Module</Filter>
-    </ClCompile>
-    <ClCompile Include="Module_Partition2.cpp">
-      <Filter>Module</Filter>
-    </ClCompile>
-    <ClCompile Include="Module_Partition1.cpp">
-      <Filter>Module</Filter>
-    </ClCompile>
     <ClCompile Include="Concept\Concept_1_HowToUse.cpp">
       <Filter>Concept</Filter>
     </ClCompile>
@@ -65,6 +44,21 @@
       <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="Module\Module_2_Partition_Part2.ixx">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\Module_3_SubModule.ixx">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\Module_3_SubModule_Sub1.ixx">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\Module_3_SubModule_Sub2.ixx">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\Module_4_SubModuleImpl.ixx">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\Module_4_SubModuleImpl.cpp">
       <Filter>Module</Filter>
     </ClCompile>
   </ItemGroup>

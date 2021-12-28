@@ -160,17 +160,15 @@
     <ClCompile Include="Concept\Concept_3_CustomConcept.cpp" />
     <ClCompile Include="Coroutine.ixx" />
     <ClCompile Include="CPP_20.cpp" />
-    <ClCompile Include="Module.ixx" />
     <ClCompile Include="Module\Module_1_HowToExport.ixx" />
     <ClCompile Include="Module\Module_2_Partition_Part2.ixx" />
     <ClCompile Include="Module\Module_2_Partition.ixx" />
     <ClCompile Include="Module\Module_2_Partition_Part1.ixx" />
-    <ClCompile Include="Module_Partition1.cpp" />
-    <ClCompile Include="Module_Partition2.cpp" />
-    <ClCompile Include="Module_Partition1.ixx" />
-    <ClCompile Include="Module_Partition.ixx" />
-    <ClCompile Include="Module_Partition2.ixx" />
-    <ClCompile Include="Module_SubModule.ixx" />
+    <ClCompile Include="Module\Module_3_SubModule.ixx" />
+    <ClCompile Include="Module\Module_3_SubModule_Sub1.ixx" />
+    <ClCompile Include="Module\Module_3_SubModule_Sub2.ixx" />
+    <ClCompile Include="Module\Module_4_SubModuleImpl.ixx" />
+    <ClCompile Include="Module\Module_4_SubModuleImpl.cpp" />
     <ClCompile Include="TestExecute\TestExecuteFactory.cpp" />
   </ItemGroup>
   <ItemGroup>
